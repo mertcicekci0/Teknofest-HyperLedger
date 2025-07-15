@@ -1,0 +1,61 @@
+# Fabric samples (external dependency)
+fabric-samples/
+
+# Generated crypto materials and artifacts (can be regenerated)
+organizations/ordererOrganizations/
+organizations/peerOrganizations/
+system-genesis-block/
+channel-artifacts/*.block
+channel-artifacts/*.tx
+
+# Docker volumes and networks
+.docker-volumes/
+
+# Node modules
+node_modules/
+*/node_modules/
+**/node_modules/
+chaincode/uav-tracker/node_modules/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# Crypto material (regenerated)
+organizations/ordererOrganizations/
+organizations/peerOrganizations/
+organizations/fabric-ca/
+
+# Generated channel artifacts
+channel-artifacts/*.block
+channel-artifacts/*.tx
+
+# System genesis block
+system-genesis-block/genesis.block
+
+# Docker containers logs
+*.log
+
+# Chaincode packages
+*.tar.gz
