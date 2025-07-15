@@ -9,8 +9,8 @@ CC_VERSION=${5:-"1.0"}
 CC_SEQUENCE=${6:-"1"}
 
 # Fabric binary'lerinin PATH'te olup olmadığını kontrol et
-export PATH=${PWD}/../fabric-samples/bin:$PATH
-export FABRIC_CFG_PATH=${PWD}/../fabric-samples/config/
+export PATH=${PWD}/fabric-samples/bin:$PATH
+export FABRIC_CFG_PATH=${PWD}/fabric-samples/config/
 
 echo "Chaincode deploy ediliyor..."
 echo "Kanal: $CHANNEL_NAME"
